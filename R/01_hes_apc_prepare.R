@@ -23,7 +23,7 @@ library(lubridate)
 
 # Parameters
 ## Folder containing HES-APC data
-hes_apc_folder = here::here("data/artificial_hes_apc_202302_v1_sample")
+hes_apc_folder = here::here("data/hes_apc")
 
 ## Column with person identifier (to be renamed person_id)
 person_id_variable = "PSEUDO_HESID"
